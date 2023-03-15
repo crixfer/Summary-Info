@@ -1,0 +1,232 @@
+:root {
+  /* ### Primary */
+
+  --Light-red: hsl(0, 100%, 67%);
+  --Orangey-yellow: hsl(39, 100%, 56%);
+  --Green-teal: hsl(166, 100%, 37%);
+  --Cobalt-blue: hsl(234, 85%, 45%);
+
+  /* ## Gradients */
+  /* Background */
+
+  --Light-slate-blue: hsl(252, 100%, 67%);
+  --Light-royal-blue: hsl(241, 81%, 54%);
+
+  /* Circle */
+  --Violet-blue: hsla(256, 72%, 46%, 1);
+  --Persian-blue: hsla(241, 72%, 46%, 0);
+
+  /* ### Neutral */
+
+  --White: hsl(0, 0%, 100%);
+  --Pale-blue: hsl(221, 100%, 96%);
+  --Light-lavender: hsl(241, 100%, 89%);
+  --Dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+/* ************************ TAG SELECTORS **************************** */
+
+* {
+  font-family: "Hanken Grotesk", sans-serif;
+  color: var(--Light-lavender);
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3.5rem;
+  margin-bottom: 0;
+  color: var(--White);
+}
+
+h5 {
+  margin-top: 0;
+}
+
+/* ************************ CLASS SELECTORS **************************** */
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.container {
+  margin: 20% auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16.87rem, 1fr));
+  width: 40rem;
+}
+
+/**** PURPLE CONTAINER ****/
+
+.purple-box {
+  text-align: center;
+  background-image: linear-gradient(#7857ff, #2e2be9);
+  height: 28.12rem;
+  width: 20rem;
+  border-radius: 20px;
+  display: grid;
+}
+.your-result {
+  margin: 30px auto 8px;
+}
+
+.circle {
+  background-image: linear-gradient(#4e21ca, #2421ca13);
+  padding: 0;
+  margin: 0 4.56rem;
+  border-radius: 50%;
+}
+.great {
+  margin: 1.87rem auto 0;
+  color: var(--White);
+}
+.paragraph {
+  font-size: 1rem;
+  padding: 0 3.31rem;
+  margin: 0 auto 1.56rem;
+}
+
+/**** WHITE CONTAINER ****/
+
+.white-box {
+  border-radius: 0 1.25rem 1.25rem 0;
+  text-align: center;
+  background-color: var(--White);
+  height: 28.12rem;
+  width: 20rem;
+  display: grid;
+}
+.summary {
+  color: var(--Dark-gray-blue);
+  text-align: left;
+  margin: 1.87rem auto 0 2.5rem;
+}
+
+/* REACTION */
+
+.reaction {
+  display: grid;
+  grid-template-columns: 5% 1fr 1fr;
+  margin: 0 2.31rem;
+  background-color: rgba(248, 152, 152, 0.178);
+  height: 3.43rem;
+  align-items: center;
+  border-radius: 8px;
+}
+.reaction-simbol {
+  padding-left: 10px;
+}
+.reaction-text {
+  color: var(--Light-red);
+}
+.numbers {
+  color: var(--Dark-gray-blue);
+}
+.percents {
+  color: darkgrey;
+}
+
+/* MEMORY */
+
+.memory {
+  display: grid;
+  grid-template-columns: 5% 1fr 1fr;
+  margin: 1.06rem 2.31rem;
+  background-color: rgba(255, 213, 0, 0.095);
+  height: 3.43rem;
+  align-items: center;
+  border-radius: 8px;
+}
+.memory-simbol {
+  padding-left: 10px;
+}
+.memory-text {
+  color: var(--Orangey-yellow);
+}
+.numbers {
+  color: var(--Dark-gray-blue);
+}
+.percents {
+  color: darkgrey;
+}
+
+/* VERBAL */
+
+.verbal {
+  display: grid;
+  grid-template-columns: 5% 1fr 1fr;
+  margin: 1.06rem 2.31rem;
+  background-color: rgba(147, 246, 146, 0.095);
+  height: 3.43rem;
+  align-items: center;
+  border-radius: 8px;
+}
+.verbal-simbol {
+  padding-left: 10px;
+}
+.verbal-text {
+  color: var(--Green-teal);
+}
+.numbers {
+  color: var(--Dark-gray-blue);
+}
+.percents {
+  color: darkgrey;
+}
+
+/* VISUAL */
+
+.visual {
+  display: grid;
+  grid-template-columns: 5% 1fr 1fr;
+  margin: 0 2.31rem;
+  background-color: rgba(148, 146, 246, 0.095);
+  height: 3.43rem;
+  align-items: center;
+  border-radius: 8px;
+}
+.visual-simbol {
+  padding-left: 10px;
+}
+.visual-text {
+  color: var(--Cobalt-blue);
+}
+.numbers {
+  color: var(--Dark-gray-blue);
+}
+.percents {
+  color: darkgrey;
+}
+
+/* BUTTON */
+
+.button-18 {
+  align-items: center;
+  background-image: linear-gradient(#7857ff, #2e2be9);
+  border: 0;
+  border-radius: 6.25rem;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  width: 75%;
+  height: 2.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.button-18:hover {
+  background-color: #16437e;
+}
+
+/**** ATTRIBUTION ****/
+
+.attribution {
+  position: absolute;
+  top: 1%;
+  font-size: 11px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
